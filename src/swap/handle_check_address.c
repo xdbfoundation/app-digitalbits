@@ -29,19 +29,19 @@ int handle_check_address(const check_address_parameters_t* params) {
 
     cx_ecfp_private_key_t privateKey;
     cx_ecfp_public_key_t publicKey;
-    uint8_t stellar_publicKey[32];
+    uint8_t digitalbits_publicKey[32];
     if (crypto_derive_private_key(&privateKey, bip32_path, bip32_path_length) != 0) {
         explicit_bzero(&privateKey, sizeof(privateKey));
         PRINTF("derive_private_key failed\n");
         return 0;
     }
 
-    crypto_init_public_key(&privateKey, &publicKey, stellar_publicKey);
+    crypto_init_public_key(&privateKey, &publicKey, digitalbits_publicKey);
 
     explicit_bzero(&privateKey, sizeof(privateKey));
 
     char address[57];
-    if (!encode_ed25519_public_key(stellar_publicKey, address, sizeof(address))) {
+    if (!encode_ed25519_public_key(digitalbits_publicKey, address, sizeof(address))) {
         PRINTF("public key encode failed\n");
         return 0;
     };

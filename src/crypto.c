@@ -21,7 +21,7 @@
 #include "./crypto.h"
 #include "./globals.h"
 
-#define STELLAR_SEED_KEY "ed25519 seed"
+#define DIGITALBITS_SEED_KEY "ed25519 seed"
 
 int crypto_derive_private_key(cx_ecfp_private_key_t *private_key,
                               const uint32_t *bip32_path,
@@ -38,8 +38,8 @@ int crypto_derive_private_key(cx_ecfp_private_key_t *private_key,
                                                bip32_path_len,
                                                raw_private_key,
                                                NULL,
-                                               (unsigned char *) STELLAR_SEED_KEY,
-                                               sizeof(STELLAR_SEED_KEY));
+                                               (unsigned char *) DIGITALBITS_SEED_KEY,
+                                               sizeof(DIGITALBITS_SEED_KEY));
             // new private_key from raw
             cx_ecfp_init_private_key(CX_CURVE_Ed25519,
                                      raw_private_key,

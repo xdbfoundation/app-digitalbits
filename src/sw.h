@@ -21,12 +21,12 @@
 #define SW_WRONG_P1P2 0x6B00
 
 /**
- * Unknown stellar operation
+ * Unknown DigitalBits operation
  */
 #define SW_UNKNOWN_OP 0x6C24
 
 /**
- * Unknown stellar operation
+ * Unknown DigitalBits operation
  */
 #define SW_UNKNOWN_ENVELOPE_TYPE 0x6C25
 
