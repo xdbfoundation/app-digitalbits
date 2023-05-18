@@ -1,5 +1,5 @@
 #*******************************************************************************
-#   Ledger Stellar App
+#   Ledger DigitalBits  App
 #   (c) 2017-2022 Ledger
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +20,7 @@ $(error Environment variable BOLOS_SDK is not set)
 endif
 include $(BOLOS_SDK)/Makefile.defines
 
-APPNAME = Stellar
+APPNAME = DigitalBits 
 APPVERSION_M=5
 APPVERSION_N=0
 APPVERSION_P=1

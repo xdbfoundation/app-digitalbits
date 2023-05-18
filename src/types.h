@@ -7,7 +7,7 @@
 #include "./transaction/transaction_types.h"
 
 /**
- * Instruction class of the Stellar application.
+ * Instruction class of the DigitalBits  application.
  */
 #define CLA 0xE0
 

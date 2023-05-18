@@ -1,7 +1,7 @@
 {
   "name": "stellar-app-integration-tests",
   "version": "1.0.0",
-  "description": "Ledger Stellar App Zemu Test",
+  "description": "Ledger DigitalBits  App Zemu Test",
   "main": "index.js",
   "repository": "https://github.com/LedgerHQ/app-stellar",
   "author": "overcat",

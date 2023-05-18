@@ -1,7 +1,7 @@
 {
   "name": "tests-common",
   "version": "1.0.0",
-  "description": "Ledger Stellar App Test Common JavaScript",
+  "description": "Ledger DigitalBits  App Test Common JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

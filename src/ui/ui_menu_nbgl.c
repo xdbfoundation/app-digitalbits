@@ -1,5 +1,5 @@
 /*****************************************************************************
- *   Ledger Stellar App.
+ *   Ledger DigitalBits  App.
  *   (c) 2022 Ledger SAS.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,7 +33,7 @@ static bool settingsNavCallback(uint8_t page, nbgl_pageContent_t* content);
 enum { SWITCH_HASH_SET_TOKEN = FIRST_USER_TOKEN, SWITCH_SEQUENCE_SET_TOKEN };
 
 #define NB_INFO_FIELDS 2
-static const char* const infoTypes[] = {"Version", "Stellar App"};
+static const char* const infoTypes[] = {"Version", "DigitalBits App"};
 static const char* const infoContents[] = {APPVERSION, "(c) 2022 Ledger"};
 
 #define NB_SETTINGS_SWITCHES 2
@@ -89,7 +89,7 @@ static void settingsControlsCallback(int token, uint8_t index) {
 }
 
 static void displaySettingsMenu(void) {
-    nbgl_useCaseSettings("Stellar settings",
+    nbgl_useCaseSettings("DigitalBits settings",
                          SETTINGS_INIT_PAGE,
                          SETTINGS_NB_PAGES,
                          SETTINGS_TOUCHABLE,
@@ -99,9 +99,9 @@ static void displaySettingsMenu(void) {
 }
 
 void ui_menu_main(void) {
-    nbgl_useCaseHome("Stellar",
+    nbgl_useCaseHome("DigitalBits",
                      &C_icon_stellar_64px,
-                     "This app enables signing transactions\n on the Stellar network",
+                     "This app enables signing transactions\n on the Digitalbits network",
                      true,
                      displaySettingsMenu,
                      onQuitCallback);
