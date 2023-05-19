@@ -1,11 +1,11 @@
-# Ledger Stellar App
-
+# Ledger DigitalBits App
+<!-- TODO: Reference digitalbits tests status
 [![Compilation & tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/ci-workflow.yml)
-[![Swap function tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml)
+[![Swap function tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml) -->
 
 ## Introduction
 
-This is the wallet app for the [Ledger Nano S](https://shop.ledger.com/products/ledger-nano-s), [Ledger Nano S Plus](https://shop.ledger.com/pages/ledger-nano-s-plus) and [Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x) that makes it possible to store [Stellar](https://www.stellar.org/)-based assets on those devices and generally sign any transaction for the Stellar network.
+This is the wallet app for the [Ledger Nano S](https://shop.ledger.com/products/ledger-nano-s), [Ledger Nano S Plus](https://shop.ledger.com/pages/ledger-nano-s-plus) and [Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x) that makes it possible to store [DigitalBits](https://digitalbits.io/)-based assets on those devices and generally sign any transaction for the DigitalBits network.
 
 ## Documentation
 
@@ -15,14 +15,13 @@ This app follows the specification available in the [`./docs`](./docs/) folder.
 
 You can communicate with the app through the following libraries:
 
-- [JavaScript library](https://github.com/LedgerHQ/ledger-live/blob/develop/libs/ledgerjs/packages/hw-app-str/README.md)
-- [Python library](https://github.com/overcat/strledger)
+- [JavaScript library](https://github.com/xdbfoundation/digitalbits-ledger-api)
 
 ## Building and installing
 
 If not for development purposes, you should install this app via [Ledger Live](https://www.ledger.com/ledger-live).
 
-To build and install the app on your Nano S or Nano S Plus you must set up the Ledger build environments. Please follow [the load the application instructions](https://developers.ledger.com/docs/nano-app/load/) at the Ledger developer portal.
+To build and install the app on your Nano S or Nano S Plus you must set up the Ledger build environments. Please follow [the load the application instructions](https://developers.ledger.com/docs/embedded-app/introduction/) at the Ledger developer portal.
 
 Additionaly, install this dependency:
 

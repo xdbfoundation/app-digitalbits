@@ -1,5 +1,5 @@
 /*****************************************************************************
- *   Ledger Stellar App.
+ *   Ledger DigitalBits  App.
  *   (c) 2022 Ledger SAS.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -206,7 +206,7 @@ __attribute__((section(".boot"))) int main(int arg0) {
     // ensure exception will work as planned
     os_boot();
     if (arg0 == 0) {
-        // called from dashboard as standalone Stellar App
+        // called from dashboard as standalone DigitalBits  App
         G_called_from_swap = false;
         standalone_app_main();
     } else {

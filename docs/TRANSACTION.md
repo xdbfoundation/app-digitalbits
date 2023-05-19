@@ -1,4 +1,4 @@
-# Stellar Transaction Serialization
+# DigitalBits  Transaction Serialization
 
 ## XDR parsing
 
