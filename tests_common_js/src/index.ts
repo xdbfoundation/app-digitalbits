@@ -1,7 +1,6 @@
 import {
   Operation,
   TransactionBuilder,
-  Networks,
   BASE_FEE,
   Account,
   Memo,
@@ -36,6 +35,12 @@ const kp1 = Keypair.fromSecret(
 const kp2 = Keypair.fromSecret(
   "SCGYXI6ZHWGD5EPFCFVH37EUHA5BIFNJQJGPMXDKHD4DYA3N2MXMA3NI"
 );
+
+// Digitalbits Network configuration
+enum Networks {
+  PUBLIC = 'LiveNet Global DigitalBits Network ; February 2021',
+  TESTNET = 'TestNet Global DigitalBits Network ; December 2020'
+}
 
 function getCommonTransactionBuilder() {
   const account = new Account(kp0.publicKey(), "103720918407102567");
