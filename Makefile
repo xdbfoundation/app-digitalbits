@@ -20,7 +20,7 @@ $(error Environment variable BOLOS_SDK is not set)
 endif
 include $(BOLOS_SDK)/Makefile.defines
 
-APPNAME = DigitalBits 
+APPNAME = DigitalBits
 APPVERSION_M=5
 APPVERSION_N=0
 APPVERSION_P=1

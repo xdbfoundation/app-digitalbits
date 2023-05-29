@@ -1,7 +1,7 @@
 # Ledger DigitalBits App
-<!-- TODO: Reference digitalbits tests status
-[![Compilation & tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/ci-workflow.yml)
-[![Swap function tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml) -->
+
+[![Compilation & tests](https://github.com/xdbfoundation/app-digitalbits/actions/workflows/ci-workflow.yml/badge.svg?branch=develop)](https://github.com/xdbfoundation/app-digitalbits/actions/workflows/ci-workflow.yml)
+<!-- [![Swap function tests](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml/badge.svg?branch=develop)](https://github.com/LedgerHQ/app-stellar/actions/workflows/swap-ci-workflow.yml) -->
 
 ## Introduction
 
